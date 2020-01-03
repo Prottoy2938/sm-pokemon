@@ -31,10 +31,11 @@ class Pokegame extends Component {
     let exp2 = hand2.reduce((exp, pokemon) => exp + pokemon.base_experience, 0);
     return (
       <div>
+        {/* Change this href link to "/". I changed it to "/sm-pokemon" to fix a bug
+        for gh-pages */}
         <a className="refresh" href="/sm-pokemon">
           Refresh
         </a>
-
         <Pokedex pokemon={hand1} exp={exp1} isWinner={exp1 > exp2} />
         <Pokedex pokemon={hand2} exp={exp2} isWinner={exp2 > exp1} />
       </div>
