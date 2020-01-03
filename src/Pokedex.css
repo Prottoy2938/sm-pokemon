@@ -31,3 +31,17 @@
 .Pokecard img {
   transition: all ease 2500ms;
 }
+.refresh {
+  position: absolute;
+  right: 4vh;
+  padding: 8px;
+  border: 2.5px solid #0d293b;
+  cursor: pointer;
+  border-radius: 5%;
+  text-decoration: none;
+  color: black;
+}
+.refresh:hover {
+  color: rgb(234, 236, 243);
+  background-color: #0d293b;
+}
