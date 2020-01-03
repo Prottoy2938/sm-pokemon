@@ -31,7 +31,7 @@ class Pokegame extends Component {
     let exp2 = hand2.reduce((exp, pokemon) => exp + pokemon.base_experience, 0);
     return (
       <div>
-        <a className="refresh" href="/">
+        <a className="refresh" href="/sm-pokemon">
           Refresh
         </a>
 
